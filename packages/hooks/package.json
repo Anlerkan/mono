@@ -1,6 +1,7 @@
 {
   "name": "@mono/hooks",
   "version": "1.0.2",
+  "license": "MIT",
   "main": "dist/index.js",
   "author": "Anlerkan",
   "types": "dist/index.d.ts",
@@ -20,5 +21,6 @@
     "build": "tsc -b .",
     "test": "jest",
     "eslint": "eslint src --ext js,ts"
-  }
+  },
+  "gitHead": "50f962c242afb09dc9a57bd6a2c5e28dc4ca5154"
 }

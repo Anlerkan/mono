@@ -1,6 +1,7 @@
 {
   "name": "mono",
   "version": "0.1.0",
+  "license": "MIT",
   "author": "Anlerkan",
   "scripts": {
     "lerna": "lerna",
