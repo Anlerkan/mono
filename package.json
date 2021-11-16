@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "license": "MIT",
   "author": "Anlerkan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anlerkan/mono.git"
+  },
   "scripts": {
     "lerna": "lerna",
     "start": "lerna run start --stream --parallel",
