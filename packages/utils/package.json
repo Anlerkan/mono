@@ -1,6 +1,6 @@
 {
   "name": "@mono/utils",
-  "version": "0.0.1-alpha.7",
+  "version": "0.0.1-alpha.8",
   "license": "MIT",
   "main": "dist/index.js",
   "author": "Anlerkan",
@@ -18,5 +18,5 @@
     "jest": "^27.3.1",
     "typescript": "^4.4.4"
   },
-  "gitHead": "4efd24fe2bd68247aad2e10d03508779e9d0c8ff"
+  "gitHead": "d64c21f2fc6cf6cc009a85595d235558f67243ea"
 }
