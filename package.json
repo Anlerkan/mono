@@ -1,6 +1,6 @@
 {
   "name": "mono",
-  "private": true,
+  "version": "0.1.0",
   "scripts": {
     "lerna": "lerna",
     "start": "lerna run start --stream --parallel",
@@ -55,5 +55,8 @@
     "packages/**/*.{js,jsx,ts,tsx}": [
       "eslint"
     ]
+  },
+  "dependencies": {
+    "verdaccio": "^5.2.2"
   }
 }
