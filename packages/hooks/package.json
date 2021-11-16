@@ -1,6 +1,6 @@
 {
   "name": "@mono/hooks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "main": "dist/index.js",
   "author": "Anlerkan",
@@ -9,7 +9,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@mono/utils": "^0.0.1-alpha.2",
+    "@mono/utils": "^0.0.1-alpha.3",
     "react": "17.0.1"
   },
   "devDependencies": {
