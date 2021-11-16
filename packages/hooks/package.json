@@ -2,6 +2,7 @@
   "name": "@mono/hooks",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "author": "Anlerkan",
   "types": "dist/index.d.ts",
   "publishConfig": {
     "access": "public"
