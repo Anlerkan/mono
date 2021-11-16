@@ -7,4 +7,4 @@ function numberToString(value: unknown): string {
   return typeof value === "number" && !Object.is(value, NaN) ? String(value) : "";
 }
 
-export default numberToString;
+export {numberToString};

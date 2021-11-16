@@ -1,4 +1,4 @@
-import numberToString from ".";
+import {numberToString} from "../../../src";
 
 describe("Valid numbers should return it's string value", () => {
   test('numberToString: 1 => "1"', () => {

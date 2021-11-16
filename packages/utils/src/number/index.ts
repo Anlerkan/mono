@@ -1,1 +1,1 @@
-export * from "./number-to-string";
+export {numberToString} from "./number-to-string";

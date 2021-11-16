@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "references": [{"path": "utils"}, {"path": "hooks"}],
+  "compilerOptions": {
+    "paths": {
+      "utils/": ["./utils/src"],
+      "hooks/": ["./hooks/src"]
+    }
+  }
+}

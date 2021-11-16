@@ -1,19 +1,23 @@
 {
-  "name": "@mono/utils",
+  "name": "@mono/hooks",
   "version": "0.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-    "build": "tsc -b .",
-    "test": "jest",
-    "eslint": "eslint src --ext js,ts"
+  "dependencies": {
+    "react": "17.0.1",
+    "@mono/utils": "0.0.0"
   },
   "devDependencies": {
     "@types/jest": "^27.0.2",
     "jest": "^27.3.1",
     "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "build": "tsc -b .",
+    "test": "jest",
+    "eslint": "eslint src --ext js,ts"
   }
 }
