@@ -56,8 +56,5 @@
     "packages/**/*.{js,jsx,ts,tsx}": [
       "eslint"
     ]
-  },
-  "dependencies": {
-    "verdaccio": "^5.2.2"
   }
 }
