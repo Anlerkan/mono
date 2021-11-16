@@ -9,7 +9,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@mono/utils": "^0.0.1-alpha.14",
+    "@monorep/utils": "0.0.1-alpha.15",
     "react": "17.0.1"
   },
   "devDependencies": {
@@ -22,5 +22,5 @@
     "test": "jest",
     "eslint": "eslint src --ext js,ts"
   },
-  "gitHead": "315f9843a813c6298ebc417b797e3833dfac7dad"
+  "gitHead": "2bbdb336931bdff2504fd799cece949d2d6be490"
 }
