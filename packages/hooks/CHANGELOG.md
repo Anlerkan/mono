@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.19](https://github.com/Anlerkan/mono/compare/@monorep/hooks@1.0.18...@monorep/hooks@1.0.19) (2021-11-16)
+
+**Note:** Version bump only for package @monorep/hooks
+
 ## 1.0.18 (2021-11-16)
 
 # 1.0.0 (2021-11-16)
