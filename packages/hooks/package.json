@@ -1,5 +1,5 @@
 {
-  "name": "@mono/hooks",
+  "name": "@monorep/hooks",
   "version": "1.0.17",
   "license": "MIT",
   "main": "dist/index.js",
@@ -22,5 +22,5 @@
     "test": "jest",
     "eslint": "eslint src --ext js,ts"
   },
-  "gitHead": "bffd2ab01c5033d744ec59e3dccb88ba99a077a7"
+  "gitHead": "315f9843a813c6298ebc417b797e3833dfac7dad"
 }
