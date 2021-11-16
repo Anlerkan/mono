@@ -22,5 +22,5 @@
     "test": "jest",
     "eslint": "eslint src --ext js,ts"
   },
-  "gitHead": "4ae171b658bd12d7b15e3faaace29715fe49de4e"
+  "gitHead": "5ec12bec6152cbe1e4f14b3fb73309cd7b447387"
 }

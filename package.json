@@ -1,6 +1,6 @@
 {
   "name": "mono",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "license": "MIT",
   "author": "Anlerkan",
   "repository": {
@@ -56,6 +56,10 @@
       "pre-push": "npm run test",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "lint-staged": {
     "packages/**/*.{js,jsx,ts,tsx,json,md}": [
