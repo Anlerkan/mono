@@ -1,14 +1,14 @@
 {
   "name": "@mono/hooks",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "react": "17.0.1",
-    "@mono/utils": "0.0.0"
+    "@mono/utils": "^0.0.1-alpha.0",
+    "react": "17.0.1"
   },
   "devDependencies": {
     "@types/jest": "^27.0.2",
