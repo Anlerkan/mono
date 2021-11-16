@@ -8,6 +8,8 @@
     "bootstrap": "lerna bootstrap",
     "clean": "lerna run clean",
     "eslint": "eslint -c ./.eslintrc.js packages",
+    "prettify": "prettier --config ./.prettierrc.js --write packages",
+    "type-check": "echo \"type-checking...\" && tsc --noEmit",
     "eslint:fix": "npm run lint -- --quiet --fix",
     "build": "lerna run build",
     "version-up": "npm run lerna version --conventional-commits"
@@ -31,7 +33,14 @@
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
     "ts-jest": "^27.0.7",
+    "husky": "4.3.6",
     "typescript": "^4.4.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettify && lint-staged && npm run type-check",
+      "pre-push": "npm run test"
+    }
   },
   "lint-staged": {
     "packages/**/*.{js,jsx,ts,tsx,json,md}": [
