@@ -6,3 +6,4 @@ console.log(numberToString(1));
 console.log(numberToString(1));
 console.log(numberToString(1));
 console.log(numberToString(1));
+console.log(numberToString(1));
