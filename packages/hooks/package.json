@@ -1,6 +1,6 @@
 {
   "name": "@mono/hooks",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "license": "MIT",
   "main": "dist/index.js",
   "author": "Anlerkan",
@@ -9,7 +9,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@mono/utils": "^0.0.1-alpha.6",
+    "@mono/utils": "^0.0.1-alpha.7",
     "react": "17.0.1"
   },
   "devDependencies": {
@@ -22,5 +22,5 @@
     "test": "jest",
     "eslint": "eslint src --ext js,ts"
   },
-  "gitHead": "6a650b4b632a89af22fb84bd0eacada67f0729c7"
+  "gitHead": "4efd24fe2bd68247aad2e10d03508779e9d0c8ff"
 }
