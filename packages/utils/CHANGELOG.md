@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.1-alpha.20](https://github.com/Anlerkan/mono/compare/@monorep/utils@0.0.1-alpha.19...@monorep/utils@0.0.1-alpha.20) (2021-11-17)
+
+**Note:** Version bump only for package @monorep/utils
+
 ## [0.0.1-alpha.19](https://github.com/Anlerkan/mono/compare/@monorep/utils@0.0.1-alpha.18...@monorep/utils@0.0.1-alpha.19) (2021-11-17)
 
 **Note:** Version bump only for package @monorep/utils
