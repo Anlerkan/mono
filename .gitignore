@@ -10,6 +10,7 @@ node_modules/
 
 # production
 /build
+dist/
 
 # TypeScript cache
 *.tsbuildinfo
@@ -26,3 +27,6 @@ yarn-debug.log*
 yarn-error.log*
 
 .vscode
+
+temp/
+etc/

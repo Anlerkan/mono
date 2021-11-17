@@ -11,7 +11,9 @@
   "scripts": {
     "build": "tsc -b .",
     "test": "jest",
-    "eslint": "eslint src --ext js,ts"
+    "eslint": "eslint src --ext js,ts",
+    "api-report": "api-extractor run --local",
+    "clean": "rimraf dist *.tsbuildinfo"
   },
   "devDependencies": {
     "@types/jest": "^27.0.2",

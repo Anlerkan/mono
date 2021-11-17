@@ -1,1 +1,3 @@
-export * from "./number";
+export {numberToString} from "./number";
+
+console.log("test");

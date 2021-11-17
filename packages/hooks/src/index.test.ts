@@ -1,4 +1,4 @@
-import {numberToString} from "@mono/utils/src";
+import {numberToString} from "@monorep/utils";
 
 describe("test", () => {
   test("should success", () => {
