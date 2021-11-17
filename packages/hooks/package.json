@@ -1,6 +1,6 @@
 {
   "name": "@monorep/hooks",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "license": "MIT",
   "main": "dist/index.js",
   "author": "Anlerkan",
@@ -9,7 +9,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@monorep/utils": "^0.0.1-alpha.17",
+    "@monorep/utils": "^0.0.1-alpha.18",
     "react": "17.0.1"
   },
   "devDependencies": {
@@ -22,5 +22,5 @@
     "test": "jest",
     "eslint": "eslint src --ext js,ts"
   },
-  "gitHead": "3e56cb92087cf0204c92b9528e87e4eeee70c4c8"
+  "gitHead": "b1cf93a963f38dcd63730bc8f3dd3ea6755ba5a9"
 }

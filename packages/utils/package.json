@@ -1,6 +1,6 @@
 {
   "name": "@monorep/utils",
-  "version": "0.0.1-alpha.17",
+  "version": "0.0.1-alpha.18",
   "license": "MIT",
   "main": "dist/index.js",
   "author": "Anlerkan",
@@ -18,5 +18,5 @@
     "jest": "^27.3.1",
     "typescript": "^4.4.4"
   },
-  "gitHead": "3e56cb92087cf0204c92b9528e87e4eeee70c4c8"
+  "gitHead": "b1cf93a963f38dcd63730bc8f3dd3ea6755ba5a9"
 }
