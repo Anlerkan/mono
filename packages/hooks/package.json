@@ -1,0 +1,28 @@
+{
+  "name": "@monorep/hooks",
+  "version": "1.0.24",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "author": "Anlerkan",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@monorep/utils": "^0.0.1-alpha.21",
+    "react": "17.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "jest": "^27.3.1",
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "build": "tsc -b .",
+    "test": "jest",
+    "eslint": "eslint src --ext js,ts",
+    "api-report": "api-extractor run --local",
+    "clean": "rimraf dist *.tsbuildinfo"
+  },
+  "gitHead": "b1cf93a963f38dcd63730bc8f3dd3ea6755ba5a9"
+}

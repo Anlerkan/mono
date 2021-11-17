@@ -1,0 +1,13 @@
+{
+  "extends": "../tsconfig.settings.json",
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "importHelpers": false,
+    "typeRoots": ["../../node_modules/@types"],
+    "baseUrl": "./",
+    "types": ["node", "jest"]
+  },
+  "include": ["src"]
+}
