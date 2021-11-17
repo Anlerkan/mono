@@ -1,6 +1,6 @@
 {
   "name": "@monorep/hooks",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "license": "MIT",
   "main": "dist/index.js",
   "author": "Anlerkan",
@@ -9,7 +9,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@monorep/utils": "^0.0.1-alpha.20",
+    "@monorep/utils": "^0.0.1-alpha.21",
     "react": "17.0.1"
   },
   "devDependencies": {
